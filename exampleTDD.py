@@ -1,2 +1,2 @@
-def application(text):
-    return 2
+def application(text=0):
+    return 0 if not text else 2
