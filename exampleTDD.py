@@ -1,4 +1,7 @@
 def application(text=None):
-    if text is None:
+    if text == None:
         return 0
-    return 2
+    else:
+        return len(text.split())
+       
+
